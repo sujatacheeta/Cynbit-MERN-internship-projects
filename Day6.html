@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Profile Card</title>
+  <link rel="stylesheet" href="Day6.css" />
+</head>
+<body>
+  <div class="card" id="profileCard">
+    <h1>Sujata Cheeta</h1>                                               <!--Name-->
+    <p class="college">B.Tech, CSE, JECRC Foundation</p>                 <!--Branch, College-->
+
+    <p class="bio">Front-end learner | Back-end explorer 👨🏻‍💻</p>          <!--One-line bio-->
+
+    <div class="tech-stack">                              <!--Badges-->
+      <span class="badge">HTML</span>
+      <span class="badge">CSS</span>
+      <span class="badge">JavaScript</span>
+    </div>
+
+    <button onclick="showQuote()">Motivate Me</button>                    <!--Btn for random quote-->
+    <p class="quote" id="quoteText">Click the button for a quote!</p>     <!--Displaying quote-->
+  </div>
+
+  <script src="Day6.js"></script>
+</body>
+</html>
